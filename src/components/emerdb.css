@@ -1,0 +1,90 @@
+.emergency-dashboard {
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.emergency-banner {
+background: linear-gradient(300deg, #B497BB, #9b59B6);
+    color: white;
+    padding: 26px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 9px palevioletred;}
+
+.emergency-banner .highlight {
+  color: yellow;
+  font-weight: bold;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.resource-card {
+  background: #B497BB;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 5px 14px 15px violet;
+  transition: 0.3s;
+}
+
+.resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.resource-card h3 {
+  color: #b3497e;
+  margin-bottom: 10px;
+}
+
+.resource-card p {
+  font-size: 0.95rem;
+  color: #f5f2f2;
+}
+
+.visit-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: linear-gradient(90deg, #df369b, #b975a8);
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.visit-btn:hover {
+  background: linear-gradient(90deg, #ff9ad6, #ff4e50);
+}
+
+.other-resources {
+  margin-top: 30px;
+}
+
+.other-resources h4 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.other-resources ul {
+  list-style: none;
+  padding: 0;
+}
+
+.other-resources li {
+  margin-bottom: 8px;
+}
+
+.other-resources a {
+  color: #eb4bb5;
+  text-decoration: none;
+}
+
+.other-resources a:hover {
+  text-decoration: underline;
+}

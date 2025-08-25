@@ -1,0 +1,61 @@
+/* Base Navbar Styles */
+.navbar {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  background-color:#f778b9;
+  /* background-color: #6c2eb9; deep purple */
+  padding: 1rem 2rem;
+  font-family: 'Poppins', sans-serif;
+  height: 53px;
+  gap: 100px;
+}
+
+/* Logo Style */
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color:rgb(242, 188, 255);
+}
+
+/* Navigation Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0;
+  padding: 0;
+  font-size:1.2rem ;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+/* Individual Link Style */
+.navbar-links li {
+  position: relative;
+  color:rgb(228, 214, 214);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 50px; /* pill shape */
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.navbar-links li:hover {
+  background-color: #fc88d3; /* soft pink */
+  color: #6c2eb9; /* purple text on pink */
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(243, 128, 203, 0.6);
+}
+
+/* Profile Icon */
+.navbar-profile {
+  color: #e64545;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.navbar-profile:hover {
+  transform: scale(1.1);
+}

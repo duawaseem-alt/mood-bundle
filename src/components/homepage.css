@@ -1,0 +1,49 @@
+/* homepage.css */
+
+/* Wrapper for full page */
+.homepage-wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Main grid layout */
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 per row on desktop */
+  grid-gap: 20px;
+}
+
+/* Grid items */
+.grid-item {
+  background: var(--component-bg, #fff);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+  /* Make sure component CSS doesn't override this */
+  width: 100% !important;
+  height: auto !important;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Emergency dashboard takes full width */
+.emergency-item {
+  grid-column: 1 / -1; /* span across both columns */
+}
+
+/* Remove margin/width overrides from child components */
+.grid-item > * {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Responsive: single column on small screens */
+@media (max-width: 768px) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,56 @@
+/* src/components/Login.css */
+
+.auth-container{
+  height: 100vh;
+    background-color: rgb(238, 151, 234);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+}
+.auth-form{
+  background-color: rgb(253, 248, 248);
+  width: 45%;
+  height: 80%;
+  border-radius:70px;
+}
+.custom-input {
+  display: flex;
+  justify-self: center;
+  width: 38%!important;
+  height: 31px!important;
+  padding: 10px!important;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  gap: 20px!important;
+
+}
+.login-btn{
+  width: 43%!important;
+  height: 43px!important;
+  padding: 10px!important;
+  margin: 20px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #e385f0;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.google-login-btn{
+  display: flex;
+    justify-self: center;
+    height: 38px;
+    width: 44%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin: 5px;
+    font-size: 0.9rem;
+    background-color: #dc7ff3;
+}

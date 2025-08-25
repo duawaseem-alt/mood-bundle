@@ -1,0 +1,66 @@
+
+.mood-chart-wrapper {
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  max-width: 700px;
+  margin: auto;
+}
+.mood-chart-wrapper {
+  background: pink;
+  padding: 20px;
+  border-radius: 12px;
+  margin: auto;
+  max-width: 700px;
+}
+
+.chart-title {
+  text-align: center;
+  color: #0000ff; /* Blue like screenshot */
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.chart-subtitle {
+  text-align: left;
+  font-weight: bold;
+  color: #4b0082; /* purple-ish */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mood-chart-wrapper {
+  padding: 20px;
+  background: #f5c3e6;
+  border-radius: 12px;
+}
+
+.day-boxes-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+.day-box {
+  min-width: 80px;
+  padding: 6px 12px;
+  background: #ffb6d9;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 600;
+  color: #0033cc;
+  white-space: nowrap;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.day-box.glow-box {
+  box-shadow: 0 0 10px rgba(255, 92, 162, 0.8);
+}
+
+.chart-title,
+.chart-subtitle {
+  color: #0033cc;
+  font-weight: 700;
+}
